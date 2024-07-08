@@ -38,4 +38,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=ares \
     PRIVATE_BUILD_DESC="ares-user 11 RP1A.200720.011 V12.5.5.0.RKJINXM release-keys"
 
+PRODUCT_OTA_PUBLIC_KEYS := device/xiaomi/ares/certs/releasekey
+PRODUCT_DEFAULT_DEV_CERTIFICATE := device/xiaomi/ares/certs/releasekey
+# PRODUCT_EXTRA_RECOVERY_KEYS := device/xiaomi/ares/certs/releasekey
+# PRODUCT_VERITY_SIGNING_KEY := evice/xiaomi/ares/certs/verity
+
 BUILD_FINGERPRINT := POCO/aresin/ares:11/RP1A.200720.011/V12.5.5.0.RKJINXM:user/release-keys
